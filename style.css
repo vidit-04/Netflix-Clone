@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+}
+.section-one{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    box-shadow: inset 900px 800px rgba(0,0,0,0.7);
+    /* position: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .nav-bar span{
+} */
+.nav-bar img{
+    width: 148px;
+    height: 40px;
+    padding: 24px 32px;
+    margin-left: 9.2%;
+    display: inline-block;
+}
+.nav-bar span select{
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 50%;
+    border: 2px solid #616161;
+    font-size: 1rem;
+    background-color: #1b1a1a;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 3px;
+}
+.nav-bar span button{
+    vertical-align: top;
+    margin-top: 2%;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 1.5%;
+    padding: 8px 15px;
+}
+.main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    /* font-size: 2rem; */
+    font-size: 60px;
+    margin-top: 170px;
+}
+.main h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.main h5{
+    font-size: 21px;
+    margin-top: 25px;
+}
+.faqone-heading{
+    font-size: 21px;
+    margin-top: 25px;
+    
+}
+.main form{
+    width: 50%;
+}
+.faqone-form{
+    width: 50%;
+
+}
+.faqone{
+    margin-left: 29%;
+}
+.main form input{
+    margin-top: 2%;
+    margin-left: 10%;
+    /* font-size: 2rem; */
+    padding: 2%;
+    width: 45%;
+}
+.faqone-form input{
+    margin-top: 2%;
+    margin-left: 10%;
+    /* font-size: 2rem; */
+    padding: 2%;
+    width: 45%;
+
+}
+.email{
+    background-color: #0f0f0f;
+    /* background: transparent; */
+    /* width: 10%; */
+    border: 1px solid #5f5f60;
+    border-radius: 2px;
+    height: 20px;
+    color: #b4b3b3;
+    /* width: 100%; */
+}
+.email-button{
+    height: 56px;
+    margin-top: 2%;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding:0px 30px;
+}
+.breaker{
+    /* height: auto; */
+    width: 100vw;
+    height: 1.2vh;
+    background-color: #232323;
+}
+.section-two{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.heading{
+    width: 43%;
+    color: white;
+    margin-left: -34%;
+    margin-top: -20%;
+}
+.laptop{
+    width: 45%;
+    margin-right:-40%;
+
+}
+.video1 video{ 
+    position: relative;
+    top: -390px;
+    height: 265px;
+    width: 465px;
+    left: 83px;
+}
+.section-three{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.image-one{
+    width: 50%;
+    padding-top: 3%;
+}
+
+.image-one img{
+    margin-left: 39%;
+    /* height: 5%; */
+    width: 45%;
+    /* margin-left: -10%; */
+}
+.heading-one{
+    color: white;
+    width: 50%;
+    font-size: 1.8rem;
+}
+.heading-one p{
+    font-size: 2rem;
+    width: 80%;
+}
+.section-four{
+    height: 80vh;
+    background-color: black ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* z-index: -10; */
+}
+.heading-two{
+    color: white;
+    width: 50%;
+    font-size: 1.6rem;
+    margin-top: -18%;
+    font-weight: 400;
+}
+.heading-two p{
+    margin-left: 23%;
+    text-align: left;
+    vertical-align: middle;
+    /* font-size: 1.8rem; */
+    /* justify-items: ; */
+}
+.laptop-two{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: -5%;
+    z-index: 1;
+}
+.video-two video{
+    position: relative;
+    top: -390px;
+    left: -5px;
+    height: 200px;
+    z-index: -1;
+    width: 400px;
+}
+.laptop-two img{
+    width: 75%;
+}
+
+.section-five{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.image-children{
+    width: 50%;
+}
+.image-children img{
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 420px;
+}
+.plus-one{
+    text-align: left;
+}
+.plus-one p{
+    font-size: 30px;
+}
+.section-seven{
+    height: 55vh;
+    width: 100%;
+    background-color: black;
+    color: #b3b3b3;
+}
+.section-seven p{
+    padding-top: 3%;
+    padding-left: 12%;
+    font-size: 17px;
+}
+.section-seven p a{
+    color: #b3b3b3;
+}
+.contact-lists{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 9.5%;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    margin-top: 16px;
+    text-decoration: underline #b3b3b3;
+    margin-right: 60px;
+}
+li{
+    margin-top: 16px;
+}
+.bottom-lang{
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.bottom-lang select{
+    border: 2px solid #616161;
+    font-size: 1rem;
+    background-color: #1b1a1a;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 3px;
+    
+}
+#netflix{
+    font-size: 0.9rem;
+    margin-top: -1.5%;
+}
+
+/* CWH */
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+.dark:hover{
+    background-color: #b12a25;
+}
